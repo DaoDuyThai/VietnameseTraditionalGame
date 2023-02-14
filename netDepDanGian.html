@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!-- saved from url=(0139)https://cloud2.vnwifi.com/templatepreview/preview?id=i-xu-online-&vs=1&fbclid=IwAR2PFGqMlNr0i91ynIPFGdbiqSw_0Ylbn83uXRxXBrjwysfueuhcA1KjF9U -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XEM TRƯỚC</title>
+    <link rel="SHORTCUT ICON" href="https://cloud2.vnwifi.com/favicon.ico" type="image/x-icon">
+    <link href="./netDepDanGian_files/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="./netDepDanGian_files/jquery-1.10.2.min.js.tải xuống"></script>
+    <link rel="stylesheet" href="./netDepDanGian_files/TemplateBuilder.css">
+    <script type="text/javascript" src="./netDepDanGian_files/TemplateBuilder.js.tải xuống"></script>
+
+    <style type="text/css">
+        @font-face {
+            font-family: Roboto;
+            src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .BG {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: fixed;
+            z-index: -1;
+            opacity: 0;
+
+        }
+
+        #BG1 {
+            opacity: 1;
+
+        }
+
+        /* Nội dung */
+        #Container {
+            margin: 0 auto;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 600px;
+            overflow-x: hidden;
+            z-index: 2;
+        }
+
+        #wraper {
+            width: 95%;
+            max-width: 600px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #container-block {
+            max-width: 600px;
+            position: relative;
+            margin: auto;
+        }
+
+        .dice {
+            display: none;
+            position: absolute;
+            width: 50px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        #dice-block-1 {
+            position: absolute;
+            top: 55%;
+            left: 45%;
+        }
+
+        #dice-block-2 {
+            position: absolute;
+            top: 55%;
+            left: 60%;
+        }
+
+        #dice-block-3 {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+        }
+
+        #play {
+            position: absolute;
+            width: fit-content;
+            width: -webkit-fit-content;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 4;
+            text-align: center;
+
+
+            color: red;
+            align-items: center;
+            display: flex;
+            text-transform: uppercase;
+        }
+
+        #play i {
+            margin-right: 8px;
+        }
+
+        #up {
+
+            z-index: 3;
+            width: 50%;
+            display: block;
+            margin: auto;
+            position: relative;
+        }
+
+        @keyframes ani {
+            0% {
+                left: 0;
+                top: 0
+            }
+
+            5% {
+                left: -10%;
+                top: 20px
+            }
+
+            10% {
+                left: 10%;
+                top: 30px
+            }
+
+            15% {
+                left: -5%;
+                top: -5px
+            }
+
+            20% {
+                left: 10%;
+                top: -20px
+            }
+
+            25% {
+                left: -10%;
+                top: 19px
+            }
+
+            30% {
+                left: 15%;
+                top: -20px
+            }
+
+            35% {
+                left: -5%;
+                top: 6px
+            }
+
+            40% {
+                left: 10%;
+                top: 3px
+            }
+
+            45% {
+                left: -10%;
+                top: -15px
+            }
+
+            50% {
+                left: 10%;
+                top: 19px
+            }
+
+            55% {
+                left: -15%;
+                top: 24px
+            }
+
+            60% {
+                left: -5%;
+                top: 10px
+            }
+
+            65% {
+                left: 10%;
+                top: -26px
+            }
+
+            70% {
+                left: -5%;
+                top: -15px
+            }
+
+            75% {
+                left: 15%;
+                top: 5px
+            }
+
+            80% {
+                left: -10%;
+                top: 10px
+            }
+
+            85% {
+                left: 15%;
+                top: 8px
+            }
+
+            90% {
+                left: -10%;
+                top: 20px
+            }
+
+            95% {
+                left: 15%;
+                top: 17px
+            }
+
+            100% {
+                left: 0;
+                top: 0
+            }
+
+        }
+
+        .socAnimate {
+            animation: ani 2s linear;
+        }
+
+        #play_block {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            width: 100%;
+        }
+    </style>
+
+    <div class="BG" id="BG1">
+    </div>
+    <!--<div class="BG" id="BG2" style="background-image: url('https://cdn2.vnwifi.com/templates/users/wifimarketingvnwifi/i-xu-online-/version_1/B2BG.jpg')"></div>-->
+
+
+    <div id="wraper">
+
+        <div id="container-block">
+            <img src="./netDepDanGian_files/dia.png" style="position: relative; width: 100%">
+            <div id="dice-block-1">
+                <img src="./netDepDanGian_files/1.png" id="dice1" class="dice">
+                <img src="./netDepDanGian_files/2.png" id="dice2" class="dice">
+                <img src="./netDepDanGian_files/3.png" id="dice3" class="dice">
+                <img src="./netDepDanGian_files/4.png" id="dice4" class="dice">
+                <img src="./netDepDanGian_files/5.png" id="dice5" class="dice">
+                <img src="./netDepDanGian_files/6.png" id="dice6" class="dice">
+            </div>
+            <div id="dice-block-2">
+                <img src="./netDepDanGian_files/1.png" id="dice21" class="dice">
+                <img src="./netDepDanGian_files/2.png" id="dice22" class="dice">
+                <img src="./netDepDanGian_files/3.png" id="dice23" class="dice">
+                <img src="./netDepDanGian_files/4.png" id="dice24" class="dice">
+                <img src="./netDepDanGian_files/5.png" id="dice25" class="dice">
+                <img src="./netDepDanGian_files/6.png" id="dice26" class="dice">
+            </div>
+            <div id="dice-block-3">
+                <img src="./netDepDanGian_files/1.png" id="dice31" class="dice">
+                <img src="./netDepDanGian_files/2.png" id="dice32" class="dice">
+                <img src="./netDepDanGian_files/3.png" id="dice33" class="dice">
+                <img src="./netDepDanGian_files/4.png" id="dice34" class="dice">
+                <img src="./netDepDanGian_files/5.png" id="dice35" class="dice">
+                <img src="./netDepDanGian_files/6.png" id="dice36" class="dice">
+            </div>
+            <div id="play_block">
+
+                <!--<img id="play" src="https://cdn2.vnwifi.com/templates/users/wifimarketingvnwifi/i-xu-online-/version_1/play.png" onclick="run()">-->
+                <img id="up" src="./netDepDanGian_files/up.png">
+                <div id="play" onclick="run()">
+
+                    <span>Sóc</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var firstPlay = true
+        var count = 0
+        var audio = new Audio('https://cdn2.vnwifi.com/templates/users/wifimarketingvnwifi/i-xu-online-/version_1/audio.mp3');
+        // Khởi chạy
+        document.addEventListener('DOMContentLoaded', function () {
+            const animated = document.querySelector('#container-block');
+
+            animated.addEventListener('animationend', () => {
+                $('#play').css('display', 'block')
+                if (screen.width <= 739) {
+                    $('#play_block').css('transform', 'translateX(-30%) translateY(30%)')
+                    $('#play_block').css('transition', '.4s')
+                }
+                else {
+                    $('#play_block').css('transform', 'translateX(3%) translateY(-50%)')
+                    $('#play_block').css('transition', '.4s')
+                }
+
+
+                if (firstPlay) {
+                    $('#play').children().last().text('Chơi lại')
+                }
+                firstPlay = false;
+
+                $('#container-block').removeClass('socAnimate')
+
+            });
+
+        }, false);
+
+        function run() {
+
+            $('#play').css('display', 'none')
+            if (!firstPlay) {
+                $('#play_block').css('transform', 'translateX(-50%) translateY(-50%)')
+                $('#play_block').css('transition', '.4s')
+            }
+
+
+            if (!firstPlay) {
+
+                setTimeout(function () {
+
+                    document.querySelectorAll('.dice').forEach(function (el) {
+                        el.style.display = 'none';
+                    });
+
+                    var audio = new Audio('https://cdn2.vnwifi.com/templates/users/wifimarketingvnwifi/i-xu-online-/version_1/audio.mp3');
+                    audio.play()
+
+                    var number1 = Math.floor(Math.random() * 6) + 1;
+                    $(`#dice${number1}`).css('display', 'block')
+                    count = number1
+
+                    var number2 = Math.floor(Math.random() * 6) + 1;
+                    $(`#dice2${number2}`).css('display', 'block')
+                    count += number2
+
+                    var number3 = Math.floor(Math.random() * 6) + 1;
+                    $(`#dice3${number3}`).css('display', 'block')
+                    count += number3
+
+
+                    $('#container-block').addClass('socAnimate')
+                }, 400)
+            }
+            else {
+                audio.play()
+
+                var number1 = Math.floor(Math.random() * 6) + 1;
+                $(`#dice${number1}`).css('display', 'block')
+                count = number1
+
+                var number2 = Math.floor(Math.random() * 6) + 1;
+                $(`#dice2${number2}`).css('display', 'block')
+                count += number2
+
+                var number3 = Math.floor(Math.random() * 6) + 1;
+                $(`#dice3${number3}`).css('display', 'block')
+                count += number3
+
+                $('#container-block').addClass('socAnimate')
+
+
+            }
+
+
+
+
+
+        }
+
+
+    </script>
+    <!-- FIXED -->
+
+
+
+    <script>
+        function returnCommentSymbol(language = "javascript") {
+            const languageObject = {
+                bat: "@REM",
+                c: "//",
+                csharp: "//",
+                cpp: "//",
+                closure: ";;",
+                coffeescript: "#",
+                dockercompose: "#",
+                css: "/*DELIMITER*/",
+                "cuda-cpp": "//",
+                dart: "//",
+                diff: "#",
+                dockerfile: "#",
+                fsharp: "//",
+                "git-commit": "//",
+                "git-rebase": "#",
+                go: "//",
+                groovy: "//",
+                handlebars: "{{!--DELIMITER--}}",
+                hlsl: "//",
+                html: "<!--DELIMITER-->",
+                ignore: "#",
+                ini: ";",
+                java: "//",
+                javascript: "//",
+                javascriptreact: "//",
+                json: "//",
+                jsonc: "//",
+                julia: "#",
+                latex: "%",
+                less: "//",
+                lua: "--",
+                makefile: "#",
+                markdown: "<!--DELIMITER-->",
+                "objective-c": "//",
+                "objective-cpp": "//",
+                perl: "#",
+                perl6: "#",
+                php: "<!--DELIMITER-->",
+                powershell: "#",
+                properties: ";",
+                jade: "//-",
+                python: "#",
+                r: "#",
+                razor: "<!--DELIMITER-->",
+                restructuredtext: "..",
+                ruby: "#",
+                rust: "//",
+                scss: "//",
+                shaderlab: "//",
+                shellscript: "#",
+                sql: "--",
+                svg: "<!--DELIMITER-->",
+                swift: "//",
+                tex: "%",
+                typescript: "//",
+                typescriptreact: "//",
+                vb: "'",
+                xml: "<!--DELIMITER-->",
+                xsl: "<!--DELIMITER-->",
+                yaml: "#"
+            }
+            return languageObject[language].split("DELIMITER")
+        }
+        var savedChPos = 0
+        var returnedSuggestion = ''
+        let editor, doc, cursor, line, pos
+        pos = { line: 0, ch: 0 }
+        var suggestionsStatus = false
+        var docLang = "python"
+        var suggestionDisplayed = false
+        var isReturningSuggestion = false
+        document.addEventListener("keydown", (event) => {
+            setTimeout(() => {
+                editor = event.target.closest('.CodeMirror');
+                const codeEditor = editor.CodeMirror
+                if (editor) {
+                    if (!editor.classList.contains("added-tab-function")) {
+                        editor.classList.add("added-tab-function")
+                        codeEditor.removeKeyMap("Tab")
+                        codeEditor.setOption("extraKeys", {
+                            Tab: (cm) => {
+
+                                if (returnedSuggestion) {
+                                    acceptTab(returnedSuggestion)
+                                }
+                                else {
+                                    cm.execCommand("defaultTab")
+                                }
+                            }
+                        })
+                    }
+                    doc = editor.CodeMirror.getDoc()
+                    cursor = doc.getCursor()
+                    line = doc.getLine(cursor.line)
+                    pos = { line: cursor.line, ch: line.length }
+
+                    if (cursor.ch > 0) {
+                        savedChPos = cursor.ch
+                    }
+
+                    const fileLang = doc.getMode().name
+                    docLang = fileLang
+                    const commentSymbol = returnCommentSymbol(fileLang)
+                    if (event.key == "?") {
+                        var lastLine = line
+                        lastLine = lastLine.slice(0, savedChPos - 1)
+
+                        if (lastLine.trim().startsWith(commentSymbol[0])) {
+                            lastLine += " " + fileLang
+                            lastLine = lastLine.split(commentSymbol[0])[1]
+                            window.postMessage({ source: 'getQuery', payload: { data: lastLine } })
+                            isReturningSuggestion = true
+                            displayGrey("\nBlackbox loading...")
+                        }
+                    } else if (event.key === "Enter" && suggestionsStatus && !isReturningSuggestion) {
+                        var query = doc.getRange({ line: Math.max(0, cursor.line - 10), ch: 0 }, { line: cursor.line, ch: line.length })
+                        window.postMessage({ source: 'getSuggestion', payload: { data: query, language: docLang } })
+                        displayGrey("Blackbox loading...")
+                    } else if (event.key === "ArrowRight" && returnedSuggestion) {
+                        acceptTab(returnedSuggestion)
+                    } else if (event.key === "Enter" && isReturningSuggestion) {
+                        displayGrey("\nBlackbox loading...")
+                    } else if (event.key === "Escape") {
+                        displayGrey("")
+                    }
+                }
+            }, 0)
+        })
+
+        function acceptTab(text) {
+            if (suggestionDisplayed) {
+                displayGrey("")
+                doc.replaceRange(text, pos)
+                returnedSuggestion = ""
+                updateSuggestionStatus(false)
+            }
+        }
+        function acceptSuggestion(text) {
+            displayGrey("")
+            doc.replaceRange(text, pos)
+            returnedSuggestion = ""
+            updateSuggestionStatus(false)
+        }
+        function displayGrey(text) {
+            if (!text) {
+                document.querySelector(".blackbox-suggestion").remove()
+                return
+            }
+            var el = document.querySelector(".blackbox-suggestion")
+            if (!el) {
+                el = document.createElement('span')
+                el.classList.add("blackbox-suggestion")
+                el.style = 'color:grey'
+                el.innerText = text
+            }
+            else {
+                el.innerText = text
+            }
+
+            var lineIndex = pos.line;
+            editor.getElementsByClassName('CodeMirror-line')[lineIndex].appendChild(el)
+        }
+        function updateSuggestionStatus(s) {
+            suggestionDisplayed = s
+            window.postMessage({ source: 'updateSuggestionStatus', status: suggestionDisplayed, suggestion: returnedSuggestion })
+        }
+        window.addEventListener('message', (event) => {
+            if (event.source !== window) return
+            if (event.data.source == 'return') {
+                isReturningSuggestion = false
+                const formattedCode = formatCode(event.data.payload.data)
+                returnedSuggestion = formattedCode
+                displayGrey(formattedCode)
+                updateSuggestionStatus(true)
+            }
+            if (event.data.source == 'suggestReturn') {
+                returnedSuggestion = event.data.payload.data
+                displayGrey(event.data.payload.data)
+                updateSuggestionStatus(true)
+            }
+            if (event.data.source == 'suggestionsStatus') {
+                suggestionsStatus = event.data.payload.enabled
+            }
+            if (event.data.source == 'acceptSuggestion') {
+
+                acceptSuggestion(event.data.suggestion)
+            }
+        })
+        document.addEventListener("keyup", function () {
+            returnedSuggestion = ""
+            updateSuggestionStatus(false)
+        })
+        function formatCode(data) {
+            if (Array.isArray(data)) {
+                var finalCode = ""
+                var pairs = []
+
+                const commentSymbol = returnCommentSymbol(docLang)
+                data.forEach((codeArr, idx) => {
+                    const code = codeArr[0]
+                    var desc = codeArr[1]
+                    const descArr = desc.split("\n")
+                    var finalDesc = ""
+                    descArr.forEach((descLine, idx) => {
+                        const whiteSpace = descLine.search(/\S/)
+                        if (commentSymbol.length < 2 || idx === 0) {
+                            finalDesc += insert(descLine, whiteSpace, commentSymbol[0])
+                        }
+                        if (commentSymbol.length > 1 && idx === descArr.length - 1) {
+                            finalDesc = finalDesc + commentSymbol[1] + "\n"
+                        }
+                    })
+
+                    finalCode += finalDesc + "\n\n" + code
+                    pairs.push(finalCode)
+                })
+                return "\n" + pairs.join("\n")
+            }
+
+            return "\n" + data
+        }
+
+        function insert(str, index, value) {
+            return str.substr(0, index) + value + str.substr(index)
+        }
+    </script>
+    <div class="ddict_btn" style="top: 226px; left: 770.432px;"><img
+            src="chrome-extension://bpggmmljdiliancllaapiggllnkbjocb/logo/48.png"></div>
+</body>
+
+</html>

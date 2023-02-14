@@ -1,0 +1,173 @@
+body {
+    overflow: hidden;
+}
+
+
+#screen {
+    z-index: 2;
+}
+
+#wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#container-block {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+.dice {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    zoom: 35%;
+}
+
+
+#dice-block-1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#dice-block-2 {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+
+}
+
+#dice-block-3 {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+}
+
+#play-block {
+    position: absolute;
+    width: fit-content;
+    width: -webkit-fit-content;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    text-align: center;
+
+
+    color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+
+
+}
+
+#play-button {
+    margin: 10%;
+    z-index: 5;
+    position: absolute;
+}
+
+#bowl {
+    z-index: 3;
+    position: relative;
+    zoom: 0.8;
+}
+
+@keyframes ani {
+    0% {
+        left: 0;
+        top: 0
+    }
+    5% {
+        left: -10%;
+        top: 20px
+    }
+    10% {
+        left: 10%;
+        top: 30px
+    }
+
+    15% {
+        left: -5%;
+        top: -5px
+    }
+    20% {
+        left: 10%;
+        top: -20px
+    }
+    25% {
+        left: -10%;
+        top: 19px
+    }
+    30% {
+        left: 15%;
+        top: -20px
+    }
+    35% {
+        left: -5%;
+        top: 6px
+    }
+    40% {
+        left: 10%;
+        top: 3px
+    }
+    45% {
+        left: -10%;
+        top: -15px
+    }
+    50% {
+        left: 10%;
+        top: 19px
+    }
+    55% {
+        left: -15%;
+        top: 24px
+    }
+    60% {
+        left: -5%;
+        top: 10px
+    }
+    65% {
+        left: 10%;
+        top: -26px
+    }
+    70% {
+        left: -5%;
+        top: -15px
+    }
+    75% {
+        left: 15%;
+        top: 5px
+    }
+    80% {
+        left: -10%;
+        top: 10px
+    }
+    85% {
+        left: 15%;
+        top: 8px
+    }
+    90% {
+        left: -10%;
+        top: 20px
+    }
+    95% {
+        left: 15%;
+        top: 17px
+    }
+    100% {
+        left: 0;
+        top: 0
+    }
+}
+
+.socAnimation{
+    animation: ani 2s linear;
+}
