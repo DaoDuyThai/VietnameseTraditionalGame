@@ -4,7 +4,7 @@ Welcome to the Vietnamese Traditional Game project! This repository contains a s
 
 ## Game Description
 
-The game featured in this project is a traditional Vietnamese game, the name of which can be specified here (e.g., "Xóc Đĩa"). In this game, players will engage in a set of activities that mimic the rules and mechanics of the actual traditional game. The game's objective and rules will be outlined in the project documentation or within the code itself.
+The game featured in this project is a traditional Vietnamese game, the name of which can be specified as "Xóc Đĩa". In this game, players will engage in a set of activities that mimic the rules and mechanics of the actual traditional game. The game's objective and rules will be outlined in the project documentation or within the code itself.
 
 
 ## How to Play
